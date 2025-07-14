@@ -1,0 +1,15 @@
+🎉 Welcome to montakit!
+
+? What is your project name? my-awesome-app
+? Where should we create the project? (.) ./my-awesome-app
+? Which frontend framework would you like to use? (Nuxt / Next.js)
+? Which styling library do you prefer? (Tailwind / Shadcn / Vuetify / Plain)
+? Which ORM would you like to use? (Drizzle / Prisma / None)
+? Which database would you like to use? (Postgres / MySQL / SQLite / MongoDB)
+? Do you want authentication? (Yes / No)
+? If yes, choose authentication strategy: (Credentials / OAuth / Magic link)
+? How should the API work? (REST / GraphQL / Both)
+? Would you like to include any of these? (ESLint, Husky, Docker, Tests, CI/CD)
+? Choose your package manager: (npm / pnpm / yarn)
+? Initialize Git repository? (Yes / No)
+? Add remote Git origin? (Yes / No)
