@@ -2,30 +2,38 @@
   "name": "montakit",
   "version": "1.0.0",
   "description": "Montakit is a command-line tool that automates repetitive project setup tasks, helping you scaffold, update, and prepare your projects faster and more consistently",
-  "bin": {
-    "my-nuxt-cli": "./dist/index.js"
-  },
   "keywords": [
     "montakit",
     "nuxt",
     "cli"
   ],
+  "homepage": "https://github.com/thecodingmontana/montakit#readme",
+  "bugs": {
+    "url": "https://github.com/thecodingmontana/montakit/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingmontana/montakit.git"
+  },
   "license": "MIT",
-  "author": "",
+  "author": "thecodingmontana",
   "type": "module",
   "main": "dist/index.js",
+  "bin": {
+    "montakit": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "start": "node dist/index.js"
   },
+  "dependencies": {
+    "@clack/prompts": "^0.11.0",
+    "picocolors": "^1.1.1"
+  },
   "devDependencies": {
     "@types/node": "^24.0.13",
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
-  },
-  "dependencies": {
-    "@clack/prompts": "^0.11.0",
-    "picocolors": "^1.1.1"
   }
 }
